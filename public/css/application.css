@@ -1,0 +1,16 @@
+body {
+  background-color: #B7E2FC;
+}
+
+#content {
+  width: 60%;
+  margin: 0 20%;
+}
+
+img {
+  width: 12%;
+  height: auto;
+  border: 2px solid white;
+  border-radius: 100px;
+}
+
