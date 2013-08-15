@@ -10,16 +10,31 @@ body {
 img {
   float: left;
   margin-right: 3%;
-  width: 15%;
+  width: 18%;
   height: auto;
   border: 2px solid white;
   border-radius: 100px;
 }
 
 h1 {
-  font-size: 300%;
+  font-size: 250%;
   margin: 1% 0 0 0;
   color: #333333;
+}
+
+#web {
+  font-style: italic;
+}
+
+#bio {
+  float: left;
+}
+
+#description {
+  margin: 1% 0 0 3%;
+  width: 80%;
+  text-align: justify;
+  font-size: 150%;
 }
 
 #details {
@@ -31,6 +46,9 @@ h1 {
 
 a {
   color: #333333;
+}
+
+.links {
   font-size: 150%;
   float: left;
   clear: both;
