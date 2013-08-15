@@ -1,0 +1,18 @@
+#about {
+  width: 50%;
+  margin: 5% auto;
+}
+
+.questions {
+  color: #313131;
+  font-size: 300%;
+}
+
+.answers {
+  letter-spacing: 2px;
+  line-height: 35px;
+  color: #313131;
+  margin: 5% 0;
+  font-size: 150%;
+  text-align: justify;
+}
