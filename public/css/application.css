@@ -17,12 +17,16 @@ img {
 }
 
 h1 {
-  font-size: 250%;
   margin: 1% 0 0 0;
-  color: #333333;
+  color: #656565;
+}
+
+#name {
+  font-size: 300%;
 }
 
 #web {
+  font-size: 250%;
   font-style: italic;
 }
 
@@ -44,15 +48,20 @@ h1 {
   clear: both;
 }
 
-a {
-  color: #333333;
+#dbc {
+  color: black;
+}
+
+#dbc:hover {
+  color: gray;  
 }
 
 .links {
+  color: #515151;
   font-size: 150%;
   float: left;
   clear: both;
-  margin: 2% 21%;
+  margin: 2% 25%;
   text-decoration: none;
 }
 
