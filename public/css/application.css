@@ -4,13 +4,40 @@ body {
 
 #content {
   width: 60%;
-  margin: 0 20%;
+  margin: 10% 25%;
 }
 
 img {
-  width: 12%;
+  float: left;
+  margin-right: 3%;
+  width: 15%;
   height: auto;
   border: 2px solid white;
   border-radius: 100px;
 }
 
+h1 {
+  font-size: 300%;
+  margin: 1% 0 0 0;
+  color: #333333;
+}
+
+#details {
+  width: 17%;
+  margin-top: 2%;
+  float: left;
+  clear: both;
+}
+
+a {
+  color: #333333;
+  font-size: 150%;
+  float: left;
+  clear: both;
+  margin: 2% 21%;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gray;
+}
