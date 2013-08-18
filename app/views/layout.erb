@@ -11,7 +11,7 @@
     application.css is where you put your styles
   -->
   <link rel="stylesheet" href="/css/application.css">
-
+  <link href='http://fonts.googleapis.com/css?family=Voces' rel='stylesheet' type='text/css'>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="/js/application.js"></script>
 
@@ -19,9 +19,14 @@
   <link rel="shortcut icon" href="favicon.ico" />
 </head>
 <body>
-  <%= yield %>
   <div id="nav">
-    
+    <ul id="static-nav">
+      <li class="list"><a href="/" class="nav">Home</a></li>
+      <li class="list"><a href="/about" class="nav">About</a></li>
+      <li class="list"><a href="/projects" class="nav">Projects</a></li>
+      <li class="list"><a href="/resume" class="nav">Resume</a></li>
+    </ul>
   </div>
+  <%= yield %>
 </body>
 </html>

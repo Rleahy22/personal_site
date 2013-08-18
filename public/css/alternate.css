@@ -1,0 +1,79 @@
+body {
+  background-color: white;
+}
+
+#content {
+  width: 60%;
+  margin: 14% 25%;
+}
+
+#ryan {
+  float: left;
+  margin: 0 4% 5% 0;
+  width: 18%;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 100px;
+}
+
+h1 {
+  font-family: "HelveticaNeue-Thin";
+  margin: 1% 0 0 0;
+  color: black;
+}
+
+#name {
+  font-size: 300%;
+}
+
+#web {
+  font-size: 250%;
+  font-style: italic;
+}
+
+#bio {
+  float: left;
+}
+
+#description {
+  font-family: "HelveticaNeue-Thin";
+  margin: 1% 0 0 3%;
+  width: 75%;
+  text-align: justify;
+  font-size: 150%;
+}
+
+#dbc {
+  color: black;
+}
+
+#dbc:hover {
+  color: gray;  
+}
+
+#details {
+  width: 100%;
+  height: 20%;
+  margin: 10% 0 0 2%;
+}
+
+#main-nav {
+  list-style-type: none;
+  width: 75%;
+}
+
+.links {
+  font-family: "HelveticaNeue-Thin";
+  color: black;
+  font-size: 200%;
+  float: left;
+  margin: 0 6% 0 0;
+  text-decoration: none;
+}
+
+.logo {
+  margin: 0 1% 0 0;
+  width: 30px;
+  height: auto;
+  float: left;
+}

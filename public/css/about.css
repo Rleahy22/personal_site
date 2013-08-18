@@ -1,17 +1,17 @@
 #about {
-  width: 50%;
+  width: 60%;
   margin: 5% auto;
 }
 
 .questions {
-  color: #313131;
+  font-family: 'HelveticaNeue', sans;
   font-size: 300%;
 }
 
 .answers {
-  letter-spacing: 2px;
-  line-height: 35px;
-  color: #313131;
+  font-family: 'Georgia', sans;
+  letter-spacing: 1px;
+  line-height: 40px;
   margin: 5% 0;
   font-size: 150%;
   text-align: justify;
