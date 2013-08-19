@@ -12,4 +12,5 @@ configure do
   set :views, File.join(Sinatra::Application.root, "app", "views")
 end
 
+require './index'
 run Sinatra::Application
