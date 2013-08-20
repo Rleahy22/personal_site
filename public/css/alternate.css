@@ -255,13 +255,13 @@
 
   #content {
     width: 100%;
-    margin: 50% 20%;
+    margin: 50% 21%;
   }
 
   #ryan {
     float: left;
     margin: 0 4% 5% 0;
-    width: 35%;
+    width: 30%;
     height: auto;
     border: 2px solid black;
     border-radius: 100px;
@@ -276,11 +276,11 @@
 
   #name {
     padding-top: 10%;
-    font-size: 350%;
+    font-size: 400%;
   }
 
   #web {
-    font-size: 300%;
+    font-size: 350%;
     font-style: italic;
   }
 
@@ -289,7 +289,7 @@
     margin: 3% 0 0 0;
     width: 70%;
     text-align: justify;
-    font-size: 250%;
+    font-size: 300%;
     float: left;
     clear: both;
   }
