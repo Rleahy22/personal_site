@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url('HelveticaNeue/HelveticaNeueLTPro-Hv.otf');
+}
+
 #about {
   width: 60%;
   margin: 8% auto;

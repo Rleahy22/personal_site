@@ -1,8 +1,6 @@
 @font-face {
   font-family: "HelveticaNeue-Thin";
   src: url('HelveticaNeue/HelveticaNeueLTPro-Th.otf');
-  font-family: "HelveticaNeue";
-  src: url('HelveticaNeue/HelveticaNeueLTPro-Hv.otf');
 }
 
 a:hover {
