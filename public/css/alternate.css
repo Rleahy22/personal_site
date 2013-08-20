@@ -255,7 +255,7 @@
 
   #content {
     width: 100%;
-    margin: 50% 15%;
+    margin: 50% 18%;
   }
 
   #ryan {
@@ -276,11 +276,11 @@
 
   #name {
     padding-top: 10%;
-    font-size: 300%;
+    font-size: 350%;
   }
 
   #web {
-    font-size: 250%;
+    font-size: 300%;
     font-style: italic;
   }
 
@@ -289,7 +289,7 @@
     margin: 3% 0 0 0;
     width: 70%;
     text-align: justify;
-    font-size: 200%;
+    font-size: 250%;
     float: left;
     clear: both;
   }
@@ -318,9 +318,9 @@
   .links {
     font-family: "HelveticaNeue-Thin";
     color: black;
-    font-size: 150%;
+    font-size: 200%;
     float: left;
-    margin: 0 6% 0 0;
+    margin: 0 3% 0 0;
     text-decoration: none;
   }
 
