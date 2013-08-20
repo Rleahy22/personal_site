@@ -33,10 +33,6 @@
     font-style: italic;
   }
 
-  #bio {
-    float: left;
-  }
-
   #description {
     font-family: "HelveticaNeue-Thin";
     margin: 1% 0 0 3%;
@@ -255,7 +251,7 @@
 
   #content {
     width: 100%;
-    margin: 50% 22%;
+    margin: 50% 0;
   }
 
   #ryan {
