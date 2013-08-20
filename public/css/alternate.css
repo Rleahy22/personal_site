@@ -276,11 +276,11 @@
 
   #name {
     padding-top: 10%;
-    font-size: 250%;
+    font-size: 300%;
   }
 
   #web {
-    font-size: 200%;
+    font-size: 250%;
     font-style: italic;
   }
 
@@ -289,7 +289,7 @@
     margin: 1% 0 0 0;
     width: 70%;
     text-align: justify;
-    font-size: 150%;
+    font-size: 200%;
     float: left;
     clear: both;
   }
@@ -311,7 +311,7 @@
 
   #main-nav {
     list-style-type: none;
-    width: 100%;
+    width: 150%;
     margin: 0;
   }
 
