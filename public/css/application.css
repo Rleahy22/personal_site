@@ -115,7 +115,7 @@ a:hover {
 
   .list{
     display: inline-block;
-    padding: 9% 8%;
+    padding: 9% 5%;
   }
 
   #last {
@@ -126,7 +126,7 @@ a:hover {
     font-family: "HelveticaNeue-Thin";
     color: white;
     text-decoration: none;
-    font-size: 200%;
+    font-size: 250%;
     float: left;
   }
 }
