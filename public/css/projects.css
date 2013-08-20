@@ -5,7 +5,9 @@
 
 h1 {
   font-family: "HelveticaNeue-Thin";
+  font-weight: lighter;
   font-size: 250%;
+  margin: 4% 0;
 }
 
 p {
@@ -24,6 +26,7 @@ hr {
   width: 100%;
   height: auto;
   border: 1px solid black;
+  margin-bottom: 2%
 }
 
 img:hover {

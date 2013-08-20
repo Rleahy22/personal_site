@@ -1,0 +1,72 @@
+#resume {
+	margin: 5% auto;
+	width: 60%;
+}
+
+#lower {
+	margin: auto;
+	width: 85%;
+}
+
+ul {
+	list-style: none;
+}
+
+h1 {
+	font-family: "HelveticaNeue-Thin";
+	font-size: 250%;
+	font-weight: lighter;
+	text-align: center;
+	margin: 4% 0;
+}
+
+#skills {
+	margin-bottom: 2%;
+}
+
+#experience {
+	margin: 2% 0 5% 0;
+}
+
+h2 {
+	font-family: 'Helvetica';
+	margin: 4% 0;
+}
+
+h3 {
+	font-family: 'Georgia';
+	margin: 2% 0 2% 4%;
+}
+
+a {
+	margin: 2% 4%;
+	text-decoration: none;
+	color: black;
+	font-size: 150%;
+}
+
+p {
+	margin: 2% 20% 2% 6%;
+	font-size: 110%;
+	text-align: justify;
+	letter-spacing: 1px;
+	line-height: 25px;
+}
+
+#projects {
+	font-weight: bolder;
+}
+
+#details {
+	text-align: center;
+}
+
+#tech {
+	display: inline-block;
+}
+
+.languages {
+	float: left;
+	margin: 2% 4%;
+	font-size: 150%
+}
