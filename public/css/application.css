@@ -115,11 +115,11 @@ a:hover {
 
   .list{
     display: inline-block;
-    padding: 8% 5%;
+    padding: 8% 8%;
   }
 
   #last {
-    padding-right: 5%;
+    padding-right: 2%;
   }
 
   .nav {
