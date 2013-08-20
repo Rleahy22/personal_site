@@ -7,28 +7,159 @@ a:hover {
   color: gray;
 }
 
-#nav {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 6%;
-  background-color: black;
+@media (min-width: 1600px) {
+  #nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 6%;
+    background-color: black;
+  }
+
+  #static-nav {
+    padding: 0;
+    margin: 0;
+  }
+
+  .list{
+    display: inline-block;
+    padding: 1% 10%;
+  }
+
+  .nav {
+    font-family: "HelveticaNeue-Thin";
+    color: white;
+    text-decoration: none;
+    font-size: 150%;
+    float: left;
+  }
 }
 
-#static-nav {
-  padding: 0;
-  margin: 0;
+@media (max-width: 1600px) and (min-width: 1200px) {
+    #nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 10%;
+    background-color: black;
+  }
+
+  #static-nav {
+    padding: 0;
+    margin: 0;
+  }
+
+  .list{
+    display: inline-block;
+    padding: 2% 9%;
+  }
+
+  #last {
+    padding-right: 8%;
+  }
+
+  .nav {
+    font-family: "HelveticaNeue-Thin";
+    color: white;
+    text-decoration: none;
+    font-size: 175%;
+    float: left;
+  }
 }
 
-.list{
-  display: inline-block;
-  padding: 1% 10%;
+@media (max-width: 1200px) and (min-width: 1000px) {
+  #nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 10%;
+    background-color: black;
+  }
+
+  #static-nav {
+    padding: 0;
+    margin: 0;
+  }
+
+  .list{
+    display: inline-block;
+    padding: 2% 8%;
+  }
+
+  #last {
+    padding-right: 5%;
+  }
+
+  .nav {
+    font-family: "HelveticaNeue-Thin";
+    color: white;
+    text-decoration: none;
+    font-size: 175%;
+    float: left;
+  }
 }
 
-.nav {
-  font-family: "HelveticaNeue-Thin";
-  color: white;
-  text-decoration: none;
-  font-size: 150%;
-  float: left;
+@media (max-width: 1000px) and (min-width: 500px) {
+    #nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 15%;
+    background-color: black;
+  }
+
+  #static-nav {
+    padding: 0;
+    margin: 0;
+  }
+
+  .list{
+    display: inline-block;
+    padding: 7% 8%;
+  }
+
+  #last {
+    padding-right: 5%;
+  }
+
+  .nav {
+    font-family: "HelveticaNeue-Thin";
+    color: white;
+    text-decoration: none;
+    font-size: 150%;
+    float: left;
+  }
+}
+
+@media (max-width: 500px) {
+  #nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 15%;
+    background-color: black;
+  }
+
+  #static-nav {
+    padding: 0;
+    margin: 0;
+  }
+
+  .list{
+    display: inline-block;
+    padding: 7% 5%;
+  }
+
+  #last {
+    padding-right: 2%;
+  }
+
+  .nav {
+    font-family: "HelveticaNeue-Thin";
+    color: white;
+    text-decoration: none;
+    font-size: 100%;
+    float: left;
+  }
+}
 }

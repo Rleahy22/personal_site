@@ -1,80 +1,417 @@
-body {
-  background-color: white;
+@media (min-width: 1600px) {
+  body {
+    background-color: white;
+  }
+
+  #content {
+    width: 60%;
+    margin: 14% 25%;
+  }
+
+  #ryan {
+    float: left;
+    margin: 0 4% 5% 0;
+    width: 18%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 100px;
+  }
+
+  h1 {
+    font-family: "HelveticaNeue-Thin";
+    font-weight: lighter;
+    margin: 1% 0 0 0;
+    color: black;
+  }
+
+  #name {
+    font-size: 300%;
+  }
+
+  #web {
+    font-size: 250%;
+    font-style: italic;
+  }
+
+  #bio {
+    float: left;
+  }
+
+  #description {
+    font-family: "HelveticaNeue-Thin";
+    margin: 1% 0 0 3%;
+    width: 75%;
+    text-align: justify;
+    font-size: 150%;
+  }
+
+  #dbc {
+    color: black;
+  }
+
+  #dbc:hover {
+    color: gray;  
+  }
+
+  #details {
+    width: 100%;
+    height: 20%;
+    margin: 10% 0 0 0;
+  }
+
+  #main-nav {
+    list-style-type: none;
+    width: 90%;
+  }
+
+  .links {
+    font-family: "HelveticaNeue-Thin";
+    color: black;
+    font-size: 200%;
+    float: left;
+    margin: 0 6% 0 0;
+    text-decoration: none;
+  }
+
+  .logo {
+    margin: 0 1% 0 0;
+    width: 30px;
+    height: auto;
+    float: left;
+  }
 }
 
-#content {
-  width: 60%;
-  margin: 14% 25%;
+@media (max-width: 1600px) and (min-width: 1200px) {
+  body {
+    background-color: white;
+  }
+
+  #content {
+    width: 70%;
+    margin: 14% 20%;
+  }
+
+  #ryan {
+    float: left;
+    margin: 0 4% 5% 0;
+    width: 18%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 100px;
+  }
+
+  h1 {
+    font-family: "HelveticaNeue-Thin";
+    font-weight: lighter;
+    margin: 1% 0 0 0;
+    color: black;
+  }
+
+  #name {
+    font-size: 300%;
+  }
+
+  #web {
+    font-size: 250%;
+    font-style: italic;
+  }
+
+  #bio {
+    float: left;
+  }
+
+  #description {
+    font-family: "HelveticaNeue-Thin";
+    margin: 1% 0 0 3%;
+    width: 75%;
+    text-align: justify;
+    font-size: 150%;
+  }
+
+  #dbc {
+    color: black;
+  }
+
+  #dbc:hover {
+    color: gray;  
+  }
+
+  #details {
+    width: 100%;
+    height: 20%;
+    margin: 10% 0 0 0;
+  }
+
+  #main-nav {
+    list-style-type: none;
+    width: 90%;
+  }
+
+  .links {
+    font-family: "HelveticaNeue-Thin";
+    color: black;
+    font-size: 200%;
+    float: left;
+    margin: 0 6% 0 0;
+    text-decoration: none;
+  }
+
+  .logo {
+    margin: 0 1% 0 0;
+    width: 30px;
+    height: auto;
+    float: left;
+  }
 }
 
-#ryan {
-  float: left;
-  margin: 0 4% 5% 0;
-  width: 18%;
-  height: auto;
-  border: 2px solid black;
-  border-radius: 100px;
+@media (max-width: 1200px) and (min-width: 1000px) {
+    body {
+    background-color: white;
+  }
+
+  #content {
+    width: 90%;
+    margin: 20% 16%;
+  }
+
+  #ryan {
+    float: left;
+    margin: 0 4% 5% 0;
+    width: 25%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 100px;
+  }
+
+  h1 {
+    font-family: "HelveticaNeue-Thin";
+    font-weight: lighter;
+    margin: 1% 0 0 0;
+    color: black;
+  }
+
+  #name {
+    font-size: 250%;
+  }
+
+  #web {
+    font-size: 200%;
+    font-style: italic;
+  }
+
+  #bio {
+    float: left;
+  }
+
+  #description {
+    font-family: "HelveticaNeue-Thin";
+    margin: 1% 0 0 3%;
+    width: 70%;
+    text-align: justify;
+    font-size: 150%;
+  }
+
+  #dbc {
+    color: black;
+  }
+
+  #dbc:hover {
+    color: gray;  
+  }
+
+  #details {
+    width: 100%;
+    height: 20%;
+    margin: 15% 0 5% -5%;
+  }
+
+  #main-nav {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+  }
+
+  .links {
+    font-family: "HelveticaNeue-Thin";
+    color: black;
+    font-size: 175%;
+    float: left;
+    margin: 0 6% 0 0;
+    text-decoration: none;
+  }
+
+  .logo {
+    margin: 0 1% 0 0;
+    width: 30px;
+    height: auto;
+    float: left;
+  }
 }
 
-h1 {
-  font-family: "HelveticaNeue-Thin";
-  font-weight: lighter;
-  margin: 1% 0 0 0;
-  color: black;
+@media (max-width: 1000px) and (min-width: 500px) {
+    body {
+    background-color: white;
+  }
+
+  #content {
+    width: 90%;
+    margin: 42% 18%;
+  }
+
+  #ryan {
+    float: left;
+    margin: 0 4% 5% 0;
+    width: 35%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 100px;
+  }
+
+  h1 {
+    font-family: "HelveticaNeue-Thin";
+    font-weight: lighter;
+    margin: 2% 0 0 0;
+    color: black;
+  }
+
+  #name {
+    padding-top: 10%;
+    font-size: 250%;
+  }
+
+  #web {
+    font-size: 200%;
+    font-style: italic;
+  }
+
+  #description {
+    font-family: "HelveticaNeue-Thin";
+    margin: 1% 0 0 0;
+    width: 70%;
+    text-align: justify;
+    font-size: 150%;
+    float: left;
+    clear: both;
+  }
+
+  #dbc {
+    color: black;
+  }
+
+  #dbc:hover {
+    color: gray;  
+  }
+
+  #details {
+    float: left;
+    width: 100%;
+    height: 20%;
+    margin: 20% 0 5% -5%;
+  }
+
+  #main-nav {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+  }
+
+  .links {
+    font-family: "HelveticaNeue-Thin";
+    color: black;
+    font-size: 100%;
+    float: left;
+    margin: 0 6% 0 0;
+    text-decoration: none;
+  }
+
+  .logo {
+    margin: 0 1% 0 0;
+    width: 20px;
+    height: auto;
+    float: left;
+  }
 }
 
-#name {
-  font-size: 300%;
-}
+@media (max-width: 500px) {
+  body {
+    background-color: white;
+  }
 
-#web {
-  font-size: 250%;
-  font-style: italic;
-}
+  #content {
+    width: 90%;
+    margin: 42% 12%;
+  }
 
-#bio {
-  float: left;
-}
+  #ryan {
+    float: left;
+    margin: 0 4% 5% 0;
+    width: 35%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 100px;
+  }
 
-#description {
-  font-family: "HelveticaNeue-Thin";
-  margin: 1% 0 0 3%;
-  width: 75%;
-  text-align: justify;
-  font-size: 150%;
-}
+  h1 {
+    font-family: "HelveticaNeue-Thin";
+    font-weight: lighter;
+    margin: 2% 0 0 0;
+    color: black;
+  }
 
-#dbc {
-  color: black;
-}
+  #name {
+    padding-top: 10%;
+    font-size: 150%;
+  }
 
-#dbc:hover {
-  color: gray;  
-}
+  #web {
+    font-size: 125%;
+    font-style: italic;
+  }
 
-#details {
-  width: 100%;
-  height: 20%;
-  margin: 10% 0 0 2%;
-}
+  #description {
+    font-family: "HelveticaNeue-Thin";
+    margin: 2% 0 0 0;
+    width: 85%;
+    text-align: justify;
+    font-size: 100%;
+    float: left;
+    clear: both;
+  }
 
-#main-nav {
-  list-style-type: none;
-  width: 80%;
-}
+  #dbc {
+    color: black;
+  }
 
-.links {
-  font-family: "HelveticaNeue-Thin";
-  color: black;
-  font-size: 200%;
-  float: left;
-  margin: 0 6% 0 0;
-  text-decoration: none;
-}
+  #dbc:hover {
+    color: gray;  
+  }
 
-.logo {
-  margin: 0 1% 0 0;
-  width: 30px;
-  height: auto;
-  float: left;
+  #details {
+    float: left;
+    width: 100%;
+    height: 20%;
+    margin: 20% 0 5% -16%;
+  }
+
+  #main-nav {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+  }
+
+  .links {
+    font-family: "HelveticaNeue-Thin";
+    color: black;
+    font-size: 60%;
+    float: left;
+    margin: 0 6% 0 0;
+    text-decoration: none;
+  }
+
+  .logo {
+    margin: 0 1% 0 0;
+    width: 8px;
+    height: auto;
+    float: left;
+  }
 }
