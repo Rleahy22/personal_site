@@ -3,10 +3,19 @@
   src: url('HelveticaNeue/HelveticaNeueLTPro-Hv.otf');
 }
 
-#about {
-  width: 60%;
-  margin: 8% auto;
-}
+@media (min-width: 1000px) {
+  #about {
+    width: 60%;
+    margin: 8% auto;
+  }
+ }
+
+@media (max-width: 1000px) {
+  #about {
+    width: 60%;
+    margin: 15% auto;
+  }
+ } 
 
 .questions {
   font-family: 'HelveticaNeue', sans;
