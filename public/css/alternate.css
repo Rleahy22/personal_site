@@ -286,7 +286,7 @@
 
   #description {
     font-family: "HelveticaNeue-Thin";
-    margin: 1% 0 0 0;
+    margin: 2% 0 0 0;
     width: 70%;
     text-align: justify;
     font-size: 200%;
@@ -311,14 +311,14 @@
 
   #main-nav {
     list-style-type: none;
-    width: 150%;
+    width: 10%;
     margin: 0;
   }
 
   .links {
     font-family: "HelveticaNeue-Thin";
     color: black;
-    font-size: 100%;
+    font-size: 150%;
     float: left;
     margin: 0 6% 0 0;
     text-decoration: none;
