@@ -7,40 +7,6 @@ a:hover {
   color: gray;
 }
 
-@media (min-width: 1000px) {
-  #about {
-    width: 60%;
-    margin: 8% auto;
-  }
-
-  #resume {
-    width: 60%;
-    margin: 8% auto;
-  }
-
-  #projects {
-    width: 60%;
-    margin: 8% auto;
-  }
-}
-
-@media (max-width: 1000px) {
-  #about {
-    width: 60%;
-    margin: 30% auto;
-  }
-
-  #resume {
-    width: 60%;
-    margin: 30% auto;
-  }
-
-  #projects {
-    width: 60%;
-    margin: 30% auto;
-  }
-} 
-
 @media (min-width: 1600px) {
   #nav {
     position: fixed;
