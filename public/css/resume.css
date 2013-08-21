@@ -9,7 +9,9 @@
 }
 
 ul {
+	margin: 1% auto;
 	list-style: none;
+	display: block;
 }
 
 h1 {
@@ -24,49 +26,57 @@ h1 {
 	margin-bottom: 2%;
 }
 
-#experience {
-	margin: 2% 0 5% 0;
-}
+/*#experience {
+	margin: 5% 0;
+}*/
 
 h2 {
 	font-family: 'Helvetica';
-	margin: 4% 0;
+	margin: 5% auto 2% auto;
+	text-align: center;
 }
 
 h3 {
 	font-family: 'Georgia';
-	margin: 2% 0 2% 4%;
+	margin: 2% auto;
+	text-align: center;
 }
 
-a {
-	margin: 2% 4%;
+.project-link {
+	margin: 2% auto;
+	text-align: center;
 	text-decoration: none;
 	color: black;
 	font-size: 150%;
 }
 
 p {
-	margin: 2% 20% 2% 6%;
+	margin: 1% auto 4% auto;
 	font-size: 110%;
-	text-align: justify;
+	text-align: center;
 	letter-spacing: 1px;
 	line-height: 25px;
 }
 
 #projects {
 	font-weight: bolder;
+	margin-bottom: 4%;
+}
+
+#project-list {
+	padding: 0;
+}
+
+.project-li {
+	text-align: center;
 }
 
 #details {
 	text-align: center;
 }
 
-#tech {
-	display: inline-block;
-}
-
 .languages {
-	float: left;
 	margin: 2% 4%;
-	font-size: 150%
+	font-size: 150%;
+	display: inline-block;
 }

@@ -1,17 +1,18 @@
-@media (min-width: 1600px) {
+/*@media (min-width: 1600px) {*/
   body {
+    height: 100%;
     background-color: white;
   }
 
   #content {
-    width: 60%;
-    margin: 14% 25%;
+    width: 50%;
+    margin: 14% auto 5% auto;
   }
 
   #ryan {
     float: left;
     margin: 0 4% 5% 0;
-    width: 18%;
+    width: 20%;
     height: auto;
     border: 2px solid black;
     border-radius: 100px;
@@ -36,8 +37,9 @@
   #description {
     font-family: "HelveticaNeue-Thin";
     margin: 1% 0 0 3%;
-    width: 75%;
-    text-align: justify;
+    width: 80%;
+    line-height: 125%;
+    /*text-align: justify;*/
     font-size: 150%;
   }
 
@@ -51,33 +53,42 @@
 
   #details {
     width: 100%;
-    height: 20%;
-    margin: 10% 0 0 0;
+    height: 20px;
+    margin: 10% auto;
   }
 
   #main-nav {
     list-style-type: none;
-    width: 90%;
+    margin: 0 auto 0 auto;
+    padding: 0;
+    width: 60%;
+  }
+
+  .nav-li {
+    display: inline-block;
+    margin: 10px;
+    width: 15%;
+    padding-right: 2%
   }
 
   .links {
     font-family: "HelveticaNeue-Thin";
     color: black;
-    font-size: 200%;
-    float: left;
+    font-size: 250%;
     margin: 0 6% 0 0;
     text-decoration: none;
+    display: block;
+
   }
 
   .logo {
-    margin: 0 1% 0 0;
-    width: 30px;
+    margin: 0 4% 0 0;
+    width: 28px;
     height: auto;
-    float: left;
   }
 }
 
-@media (max-width: 1600px) and (min-width: 1200px) {
+/*@media (max-width: 1600px) and (min-width: 1200px) {
   body {
     background-color: white;
   }
@@ -410,4 +421,4 @@
     height: auto;
     float: left;
   }
-}
+}*/
