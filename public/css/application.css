@@ -196,3 +196,562 @@ a:hover {
   font-size: 150%;
   text-align: justify;
 }
+
+#projects {
+  margin: 5% auto;
+  width: 60%;
+}
+
+h1 {
+  font-family: "HelveticaNeue-Thin";
+  font-weight: lighter;
+  font-size: 250%;
+  margin: 4% 0;
+}
+
+p {
+  text-align: justify;
+  font-family: 'Georgia', sans;
+  font-size: 150%;
+}
+
+hr {
+  height: 2px;
+  background-color: black;
+  margin: 5% 0;
+}
+
+.preview {
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  margin-bottom: 2%
+}
+
+img:hover {
+  box-shadow: -2px -2px 3px #888;
+}
+
+@media (min-width: 1000px) {
+  #resume {
+    width: 60%;
+    margin: 8% auto;
+  }
+ }
+
+@media (max-width: 1000px) {
+  #resume {
+    width: 80%;
+    margin: 30% auto;
+  }
+ } 
+/*
+#resume {
+  margin: 5% auto;
+  width: 60%;
+}*/
+
+#lower {
+  margin: auto;
+  width: 85%;
+}
+
+ul {
+  margin: 1% auto;
+  list-style: none;
+  display: block;
+}
+
+h1 {
+  font-family: "HelveticaNeue-Thin";
+  font-size: 250%;
+  font-weight: lighter;
+  text-align: center;
+  margin: 4% 0;
+}
+
+#skills {
+  margin-bottom: 2%;
+}
+
+/*#experience {
+  margin: 5% 0;
+}*/
+
+h2 {
+  font-family: 'Helvetica';
+  margin: 5% auto 2% auto;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Georgia';
+  margin: 2% auto;
+  text-align: center;
+}
+
+.project-link {
+  margin: 2% auto;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 150%;
+}
+
+p {
+  margin: 1% auto 4% auto;
+  font-size: 110%;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+#projects {
+  font-weight: bolder;
+  margin-bottom: 4%;
+}
+
+#project-list {
+  padding: 0;
+}
+
+.project-li {
+  text-align: center;
+}
+
+#details {
+  text-align: center;
+}
+
+.languages {
+  margin: 2% 4%;
+  font-size: 150%;
+  display: inline-block;
+}
+
+/*@media (min-width: 1600px) {*/
+  body {
+    height: 100%;
+    background-color: white;
+  }
+
+  #content {
+    padding-left: 5%;
+    width: 50%;
+    margin: 14% auto 5% auto;
+  }
+
+  #ryan {
+    float: left;
+    margin: 0 4% 5% 0;
+    width: 20%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 100px;
+  }
+
+  h1 {
+    font-family: "HelveticaNeue-Thin";
+    font-weight: lighter;
+    margin: 1% 0 0 0;
+    color: black;
+  }
+
+  #name {
+    font-size: 300%;
+  }
+
+  #web {
+    font-size: 250%;
+    font-style: italic;
+  }
+
+  #description {
+    font-family: "HelveticaNeue-Thin";
+    margin: 1% 0 0 3%;
+    width: 80%;
+    line-height: 125%;
+    /*text-align: justify;*/
+    font-size: 150%;
+  }
+
+  #dbc {
+    color: black;
+  }
+
+  #dbc:hover {
+    color: gray;  
+  }
+
+  #details {
+    padding-left: 2%;
+    width: 100%;
+    height: 20px;
+    margin: 10% auto;
+  }
+
+  #main-nav {
+    list-style-type: none;
+    margin: 0 auto 0 auto;
+    padding: 0;
+    width: 60%;
+  }
+
+  .nav-li {
+    display: inline-block;
+    margin: 10px;
+    width: 15%;
+    padding-right: 2%
+  }
+
+  .links {
+    font-family: "HelveticaNeue-Thin";
+    color: black;
+    font-size: 250%;
+    margin: 0 6% 0 0;
+    text-decoration: none;
+    display: block;
+
+  }
+
+  .logo {
+    margin: 0 4% 0 0;
+    width: 28px;
+    height: auto;
+  }
+/*}*/
+
+/*@media (max-width: 1600px) and (min-width: 1200px) {
+  body {
+    background-color: white;
+  }
+
+  #content {
+    width: 70%;
+    margin: 14% 20%;
+  }
+
+  #ryan {
+    float: left;
+    margin: 0 4% 5% 0;
+    width: 18%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 100px;
+  }
+
+  h1 {
+    font-family: "HelveticaNeue-Thin";
+    font-weight: lighter;
+    margin: 1% 0 0 0;
+    color: black;
+  }
+
+  #name {
+    font-size: 300%;
+  }
+
+  #web {
+    font-size: 250%;
+    font-style: italic;
+  }
+
+  #bio {
+    float: left;
+  }
+
+  #description {
+    font-family: "HelveticaNeue-Thin";
+    margin: 1% 0 0 3%;
+    width: 75%;
+    text-align: justify;
+    font-size: 150%;
+  }
+
+  #dbc {
+    color: black;
+  }
+
+  #dbc:hover {
+    color: gray;  
+  }
+
+  #details {
+    width: 100%;
+    height: 20%;
+    margin: 10% 0 0 0;
+  }
+
+  #main-nav {
+    list-style-type: none;
+    width: 90%;
+  }
+
+  .links {
+    font-family: "HelveticaNeue-Thin";
+    color: black;
+    font-size: 200%;
+    float: left;
+    margin: 0 6% 0 0;
+    text-decoration: none;
+  }
+
+  .logo {
+    margin: 0 1% 0 0;
+    width: 30px;
+    height: auto;
+    float: left;
+  }
+}
+*/
+/*@media (max-width: 1200px) and (min-width: 1000px) {
+    body {
+    background-color: white;
+  }
+
+  #content {
+    width: 90%;
+    margin: 20% 16%;
+  }
+
+  #ryan {
+    float: left;
+    margin: 0 4% 5% 0;
+    width: 25%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 100px;
+  }
+
+  h1 {
+    font-family: "HelveticaNeue-Thin";
+    font-weight: lighter;
+    margin: 1% 0 0 0;
+    color: black;
+  }
+
+  #name {
+    font-size: 250%;
+  }
+
+  #web {
+    font-size: 200%;
+    font-style: italic;
+  }
+
+  #bio {
+    float: left;
+  }
+
+  #description {
+    font-family: "HelveticaNeue-Thin";
+    margin: 1% 0 0 3%;
+    width: 70%;
+    text-align: justify;
+    font-size: 150%;
+  }
+
+  #dbc {
+    color: black;
+  }
+
+  #dbc:hover {
+    color: gray;  
+  }
+
+  #details {
+    width: 100%;
+    height: 20%;
+    margin: 15% 0 5% -5%;
+  }
+
+  #main-nav {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+  }
+
+  .links {
+    font-family: "HelveticaNeue-Thin";
+    color: black;
+    font-size: 175%;
+    float: left;
+    margin: 0 6% 0 0;
+    text-decoration: none;
+  }
+
+  .logo {
+    margin: 0 1% 0 0;
+    width: 30px;
+    height: auto;
+    float: left;
+  }
+}*/
+
+@media (max-width: 1000px) and (min-width: 500px) {
+    body {
+    background-color: white;
+  }
+
+  #content {
+    width: 100%;
+    margin: 50% 0;
+  }
+
+  #ryan {
+    float: left;
+    margin: 0 4% 5% 0;
+    width: 30%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 100px;
+  }
+
+  h1 {
+    font-family: "HelveticaNeue-Thin";
+    font-weight: lighter;
+    margin: 2% 0 0 0;
+    color: black;
+  }
+
+  #name {
+    padding-top: 10%;
+    font-size: 400%;
+  }
+
+  #web {
+    font-size: 350%;
+    font-style: italic;
+  }
+
+  #description {
+    font-family: "HelveticaNeue-Thin";
+    margin: 3% 0 0 0;
+    width: 70%;
+    text-align: justify;
+    font-size: 300%;
+    float: left;
+    clear: both;
+  }
+
+  #dbc {
+    color: black;
+  }
+
+  #dbc:hover {
+    color: gray;  
+  }
+
+  #details {
+    float: left;
+    width: 100%;
+    height: 20%;
+    margin: 20% 0 5% -5%;
+  }
+
+  #main-nav {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+  }
+
+  .links {
+    font-family: "HelveticaNeue-Thin";
+    color: black;
+    font-size: 200%;
+    float: left;
+    margin: 0 3% 0 0;
+    text-decoration: none;
+  }
+
+  .logo {
+    margin: 0 1% 0 0;
+    width: 30px;
+    height: auto;
+    float: left;
+  }
+}
+
+/*@media (max-width: 500px) {
+  body {
+    background-color: white;
+  }
+
+  #content {
+    width: 90%;
+    margin: 42% 12%;
+  }
+
+  #ryan {
+    float: left;
+    margin: 0 4% 5% 0;
+    width: 35%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 100px;
+  }
+
+  h1 {
+    font-family: "HelveticaNeue-Thin";
+    font-weight: lighter;
+    margin: 2% 0 0 0;
+    color: black;
+  }
+
+  #name {
+    padding-top: 10%;
+    font-size: 150%;
+  }
+
+  #web {
+    font-size: 125%;
+    font-style: italic;
+  }
+
+  #description {
+    font-family: "HelveticaNeue-Thin";
+    margin: 2% 0 0 0;
+    width: 85%;
+    text-align: justify;
+    font-size: 100%;
+    float: left;
+    clear: both;
+  }
+
+  #dbc {
+    color: black;
+  }
+
+  #dbc:hover {
+    color: gray;  
+  }
+
+  #details {
+    float: left;
+    width: 100%;
+    height: 20%;
+    margin: 20% 0 5% -16%;
+  }
+
+  #main-nav {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+  }
+
+  .links {
+    font-family: "HelveticaNeue-Thin";
+    color: black;
+    font-size: 60%;
+    float: left;
+    margin: 0 6% 0 0;
+    text-decoration: none;
+  }
+
+  .logo {
+    margin: 0 1% 0 0;
+    width: 8px;
+    height: auto;
+    float: left;
+  }
+}*/
