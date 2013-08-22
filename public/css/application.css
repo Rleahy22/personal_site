@@ -438,13 +438,9 @@ body {
     margin: 40% auto 40% auto;
   }
 
-  #intro {
-    margin-left: 10%;
-  }
-
   #ryan {
     float: left;
-    margin: 0 4% 5% 0;
+    margin: 0 4% 5% -5%;
     width: 30%;
     height: auto;
     border: 2px solid black;
@@ -496,7 +492,7 @@ body {
   #main-nav {
     list-style-type: none;
     margin: 0 auto 0 auto;
-    padding: 0 0 0 -2%;
+    padding: 0 0 0 -10%;
     width: 80%;
   }
 
