@@ -179,7 +179,7 @@ body {
 /*index*/
 
 
-/*@media (min-width: 1600px) {*/
+@media (min-width: 1000px) {
   #content {
     padding-left: 5%;
     width: 50%;
@@ -216,7 +216,6 @@ body {
     margin: 1% 0 0 3%;
     width: 80%;
     line-height: 125%;
-    /*text-align: justify;*/
     font-size: 150%;
   }
 
@@ -264,7 +263,7 @@ body {
     width: 28px;
     height: auto;
   }
-/*}*/
+}
 
 /*@media (max-width: 1600px) and (min-width: 1200px) {
   body {
