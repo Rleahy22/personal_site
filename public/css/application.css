@@ -3,9 +3,21 @@
   src: url('HelveticaNeue/HelveticaNeueLTPro-Th.otf');
 }
 
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url('HelveticaNeue/HelveticaNeueLTPro-Hv.otf');
+}
+
 a:hover {
   color: gray;
 }
+
+body {
+  height: 100%;
+  background-color: white;
+}
+
+/*layout*/
 
 @media (min-width: 1600px) {
   #nav {
@@ -163,178 +175,11 @@ a:hover {
   }
 }
 
-@font-face {
-  font-family: "HelveticaNeue";
-  src: url('HelveticaNeue/HelveticaNeueLTPro-Hv.otf');
-}
 
-@media (min-width: 1000px) {
-  #about {
-    width: 60%;
-    margin: 8% auto;
-  }
- }
+/*index*/
 
-@media (max-width: 1000px) {
-  #about {
-    width: 60%;
-    margin: 30% auto;
-  }
- } 
-
-.questions {
-  font-family: 'HelveticaNeue', sans;
-  font-weight: 100;
-  font-size: 300%;
-}
-
-.answers {
-  font-family: 'Georgia', sans;
-  letter-spacing: 1px;
-  line-height: 40px;
-  margin: 5% 0;
-  font-size: 150%;
-  text-align: justify;
-}
-
-#projects {
-  margin: 5% auto;
-  width: 60%;
-}
-
-.projects-h1 {
-  font-family: "HelveticaNeue-Thin";
-  font-weight: lighter;
-  font-size: 250%;
-  margin: 4% 0;
-}
-
-.projects-p {
-  text-align: justify;
-  font-family: 'Georgia', sans;
-  font-size: 150%;
-}
-
-hr {
-  height: 2px;
-  background-color: black;
-  margin: 5% 0;
-}
-
-.preview {
-  width: 100%;
-  height: auto;
-  border: 1px solid black;
-  margin-bottom: 2%
-}
-
-.preview:hover {
-  box-shadow: -2px -2px 3px #888;
-}
-
-@media (min-width: 1000px) {
-  #resume {
-    width: 60%;
-    margin: 8% auto;
-  }
- }
-
-@media (max-width: 1000px) {
-  #resume {
-    width: 80%;
-    margin: 30% auto;
-  }
- } 
-/*
-#resume {
-  margin: 5% auto;
-  width: 60%;
-}*/
-
-#lower {
-  margin: auto;
-  width: 85%;
-}
-
-ul {
-  margin: 1% auto;
-  list-style: none;
-  display: block;
-}
-
-.resume-h1 {
-  font-family: "HelveticaNeue-Thin";
-  font-size: 250%;
-  font-weight: lighter;
-  text-align: center;
-  margin: 4% 0;
-}
-
-#skills {
-  margin-bottom: 2%;
-}
-
-/*#experience {
-  margin: 5% 0;
-}*/
-
-.resume-h2 {
-  font-family: 'Helvetica';
-  margin: 5% auto 2% auto;
-  text-align: center;
-}
-
-.resume-h3 {
-  font-family: 'Georgia';
-  margin: 2% auto;
-  text-align: center;
-}
-
-.project-link {
-  margin: 2% auto;
-  text-align: center;
-  text-decoration: none;
-  color: black;
-  font-size: 150%;
-}
-
-.resume-p {
-  margin: 1% auto 4% auto;
-  font-size: 110%;
-  text-align: center;
-  letter-spacing: 1px;
-  line-height: 25px;
-}
-
-#projects-resume {
-  font-weight: bolder;
-  margin-bottom: 4%;
-}
-
-#project-list {
-  padding: 0;
-}
-
-.project-li {
-  text-align: center;
-}
-
-#contact {
-  text-align: center;
-}
-
-.languages {
-  margin: 2% 4%;
-  font-size: 150%;
-  display: inline-block;
-}
 
 /*@media (min-width: 1600px) {*/
-  body {
-    height: 100%;
-    background-color: white;
-  }
-
   #content {
     padding-left: 5%;
     width: 50%;
@@ -589,10 +434,6 @@ ul {
 }*/
 
 @media (max-width: 1000px) and (min-width: 500px) {
-    body {
-    background-color: white;
-  }
-
   #content {
     width: 100%;
     margin: 50% 0;
@@ -755,3 +596,173 @@ ul {
     float: left;
   }
 }*/
+
+
+/*about*/
+
+
+@media (min-width: 1000px) {
+  #about {
+    width: 60%;
+    margin: 8% auto;
+  }
+}
+
+@media (max-width: 1000px) {
+  #about {
+    width: 60%;
+    margin: 30% auto;
+  }
+} 
+
+.questions {
+  font-family: 'HelveticaNeue', sans;
+  font-weight: 100;
+  font-size: 300%;
+}
+
+.answers {
+  font-family: 'Georgia', sans;
+  letter-spacing: 1px;
+  line-height: 40px;
+  margin: 5% 0;
+  font-size: 150%;
+  text-align: justify;
+}
+
+/*projects*/
+
+@media (min-width: 1000px) {
+  #projects {
+    width: 60%;
+    margin: 5% auto;
+  }
+}
+
+@media (max-width: 1000px) {
+  #projects {
+    width: 60%;
+    margin: 30% auto;
+  }
+} 
+
+.projects-h1 {
+  font-family: "HelveticaNeue-Thin";
+  font-weight: lighter;
+  font-size: 250%;
+  margin: 4% 0;
+}
+
+.projects-p {
+  text-align: justify;
+  font-family: 'Georgia', sans;
+  font-size: 150%;
+}
+
+hr {
+  height: 2px;
+  background-color: black;
+  margin: 5% 0;
+}
+
+.preview {
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  margin-bottom: 2%
+}
+
+.preview:hover {
+  box-shadow: -2px -2px 3px #888;
+}
+
+/*resume*/
+
+@media (min-width: 1000px) {
+  #resume {
+    width: 60%;
+    margin: 8% auto;
+  }
+}
+
+@media (max-width: 1000px) {
+  #resume {
+    width: 80%;
+    margin: 30% auto;
+  }
+} 
+
+#lower {
+  margin: auto;
+  width: 85%;
+}
+
+ul {
+  margin: 1% auto;
+  list-style: none;
+  display: block;
+}
+
+.resume-h1 {
+  font-family: "HelveticaNeue-Thin";
+  font-size: 250%;
+  font-weight: lighter;
+  text-align: center;
+  margin: 4% 0;
+}
+
+#skills {
+  margin-bottom: 2%;
+}
+
+.resume-h2 {
+  font-family: 'Helvetica';
+  margin: 5% auto 2% auto;
+  text-align: center;
+}
+
+.resume-h3 {
+  font-family: 'Georgia';
+  margin: 2% auto;
+  text-align: center;
+}
+
+.project-link {
+  margin: 2% auto;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 150%;
+}
+
+.resume-p {
+  margin: 1% auto 4% auto;
+  font-size: 110%;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+#projects-resume {
+  font-weight: bolder;
+  margin-bottom: 4%;
+}
+
+#project-list {
+  padding: 0;
+}
+
+.project-li {
+  text-align: center;
+}
+
+#contact {
+  text-align: center;
+}
+
+.languages {
+  margin: 2% 4%;
+  font-size: 150%;
+  display: inline-block;
+}
+
