@@ -435,7 +435,11 @@ body {
 @media (max-width: 1000px) and (min-width: 500px) {
   #content {
     width: 80%;
-    margin: 40% auto 25% auto;
+    margin: 40% auto 40% auto;
+  }
+
+  #intro {
+    margin: 0 auto;
   }
 
   #ryan {
@@ -486,7 +490,7 @@ body {
     padding-left: 2%;
     width: 100%;
     height: 20px;
-    margin: 40% auto 10% auto;
+    margin: 10% auto;
   }
 
   #main-nav {
