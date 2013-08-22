@@ -202,14 +202,14 @@ a:hover {
   width: 60%;
 }
 
-h1 {
+.projects-h1 {
   font-family: "HelveticaNeue-Thin";
   font-weight: lighter;
   font-size: 250%;
   margin: 4% 0;
 }
 
-p {
+.projects-p {
   text-align: justify;
   font-family: 'Georgia', sans;
   font-size: 150%;
@@ -228,7 +228,7 @@ hr {
   margin-bottom: 2%
 }
 
-img:hover {
+.preview:hover {
   box-shadow: -2px -2px 3px #888;
 }
 
@@ -262,7 +262,7 @@ ul {
   display: block;
 }
 
-h1 {
+.resume-h1 {
   font-family: "HelveticaNeue-Thin";
   font-size: 250%;
   font-weight: lighter;
@@ -278,13 +278,13 @@ h1 {
   margin: 5% 0;
 }*/
 
-h2 {
+.resume-h2 {
   font-family: 'Helvetica';
   margin: 5% auto 2% auto;
   text-align: center;
 }
 
-h3 {
+.resume-h3 {
   font-family: 'Georgia';
   margin: 2% auto;
   text-align: center;
@@ -298,7 +298,7 @@ h3 {
   font-size: 150%;
 }
 
-p {
+.resume-p {
   margin: 1% auto 4% auto;
   font-size: 110%;
   text-align: center;
@@ -306,7 +306,7 @@ p {
   line-height: 25px;
 }
 
-#projects {
+#projects-resume {
   font-weight: bolder;
   margin-bottom: 4%;
 }
@@ -319,7 +319,7 @@ p {
   text-align: center;
 }
 
-#details {
+#contact {
   text-align: center;
 }
 
@@ -350,7 +350,7 @@ p {
     border-radius: 100px;
   }
 
-  h1 {
+  .index-h1 {
     font-family: "HelveticaNeue-Thin";
     font-weight: lighter;
     margin: 1% 0 0 0;
@@ -607,7 +607,7 @@ p {
     border-radius: 100px;
   }
 
-  h1 {
+  .index-h1 {
     font-family: "HelveticaNeue-Thin";
     font-weight: lighter;
     margin: 2% 0 0 0;
