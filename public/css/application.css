@@ -193,7 +193,7 @@ body {
   color: gray;  
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   #content {
     padding-left: 5%;
     width: 50%;
@@ -238,6 +238,71 @@ body {
     margin: 0 auto 0 auto;
     padding: 0;
     width: 60%;
+  }
+
+  .nav-li {
+    display: inline-block;
+    margin: 10px;
+    width: 15%;
+    padding-right: 2%
+  }
+
+  .links {
+    font-family: "HelveticaNeue-Thin";
+    color: black;
+    font-size: 250%;
+    margin: 0 6% 0 0;
+    text-decoration: none;
+    display: block;
+
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 1000px) {
+  #content {
+    padding-left: 5%;
+    width: 70%;
+    margin: 14% auto 5% auto;
+  }
+
+  #ryan {
+    float: left;
+    margin: 0 4% 5% 0;
+    width: 25%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 100px;
+  }
+
+  #name {
+    font-size: 300%;
+  }
+
+  #web {
+    font-size: 250%;
+    font-style: italic;
+  }
+
+  #description {
+    font-family: "HelveticaNeue-Thin";
+    margin: 1% 0 0 3%;
+    width: 90%;
+    line-height: 125%;
+    font-size: 150%;
+  }
+
+  #details {
+    padding-left: 2%;
+    width: 100%;
+    height: 20px;
+    margin: 10% auto;
+  }
+
+  #main-nav {
+    list-style-type: none;
+    margin: 0 auto 0 auto;
+    padding: 0;
+    width: 80%;
   }
 
   .nav-li {
@@ -577,10 +642,17 @@ body {
   text-align: justify;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   #about {
     width: 60%;
     margin: 8% auto;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 1000px) {
+  #about {
+    width: 60%;
+    margin: 15% auto;
   }
 }
 
@@ -625,10 +697,17 @@ hr {
   box-shadow: -2px -2px 3px #888;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   #projects {
     width: 60%;
     margin: 5% auto;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 1000px) {
+  #projects {
+    width: 60%;
+    margin: 15% auto;
   }
 }
 
@@ -717,10 +796,17 @@ ul {
   display: inline-block;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   #resume {
     width: 60%;
     margin: 8% auto;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 1000px) {
+  #resume {
+    width: 60%;
+    margin: 15% auto;
   }
 }
 
