@@ -1,0 +1,167 @@
+@font-face {
+  font-family: "HelveticaNeue-Thin";
+  src: url('HelveticaNeue/HelveticaNeueLTPro-Th.otf');
+}
+
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url('HelveticaNeue/HelveticaNeueLTPro-Hv.otf');
+}
+
+a:hover {
+  color: gray;
+}
+
+body {
+  height: 100%;
+  background-color: white;
+}
+
+/*layout*/
+
+#static-nav {
+  padding: 0;
+  margin: 0;
+}
+
+@media (min-width: 1481px) {
+  #nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+  }
+
+  .list{
+    display: inline-block;
+    padding: 1% 10%;
+  }
+
+  .nav {
+    font-family: "HelveticaNeue-Thin";
+    color: white;
+    text-decoration: none;
+    font-size: 150%;
+    float: left;
+  }
+}
+
+@media (max-width: 1481px) and (min-width: 1044px) {
+	#nav {
+	    position: fixed;
+	    top: 0;
+	    width: 100%;
+	    background-color: black;
+	  }
+
+  .list{
+    display: inline-block;
+    padding: 1% 9%;
+  }
+
+  .nav {
+    font-family: "HelveticaNeue-Thin";
+    color: white;
+    text-decoration: none;
+    font-size: 150%;
+  }
+}
+
+@media (max-width: 1043px){
+	#nav {
+	    position: fixed;
+	    top: 0;
+	    width: 100%;
+	    background-color: black;
+	  }
+
+  .list{
+    display: inline-block;
+    padding: 1% 8%;
+  }
+
+  .nav {
+    font-family: "HelveticaNeue-Thin";
+    color: white;
+    text-decoration: none;
+    font-size: 150%;
+  }
+}
+
+.index-h1 {
+  font-family: "HelveticaNeue-Thin";
+  font-weight: lighter;
+  margin: 1% 0 0 0;
+  color: black;
+}
+
+#dbc {
+  color: black;
+}
+
+#dbc:hover {
+  color: gray;  
+}
+
+#content {
+    width: 900px;
+    margin: 12% auto 5% auto;
+  }
+
+  #ryan {
+    float: left;
+    margin: 0 4% 15% 0;
+    width: 20%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 100px;
+  }
+
+  #name {
+    font-size: 300%;
+  }
+
+  #web {
+    font-size: 250%;
+    font-style: italic;
+  }
+
+  #description {
+    font-family: "HelveticaNeue-Thin";
+    margin: 1% 0 0 3%;
+    width: 80%;
+    line-height: 125%;
+    font-size: 150%;
+  }
+
+  #details {
+    padding-left: 2%;
+    width: 100%;
+    height: 20px;
+    margin: 10% auto;
+  }
+
+  #main-nav {
+    list-style-type: none;
+    margin: 0 auto 0 auto;
+    padding: 0;
+    width: 1000px;
+  }
+
+  .nav-li {
+    display: inline-block;
+    margin: 10px;
+    width: 15%;
+    padding-right: 2%
+  }
+
+  .links {
+    font-family: "HelveticaNeue-Thin";
+    color: black;
+    font-size: 250%;
+    margin: 0 6% 0 0;
+    text-decoration: none;
+    display: block;
+
+  }
+}
